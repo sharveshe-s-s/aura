@@ -1,0 +1,50 @@
+# --- CORE AI & COMPUTER VISION ---
+# OpenCV for image processing, contour detection, and visual servoing
+opencv-python>=4.8.0
+
+# TensorFlow Lite Runtime for efficient MobileNet V2 inference on Raspberry Pi
+# Note: If developing on a laptop, use 'tensorflow' instead.
+tflite-runtime>=2.14.0
+
+# NumPy for vector calculations and matrix operations
+numpy>=1.24.0
+
+# --- COGNITIVE INTELLIGENCE (CLOUD) ---
+# OpenAI API for GPT-4o Vision and reasoning
+openai>=1.3.0
+
+# DuckDuckGo for live Internet Search (RAG Pipeline)
+duckduckgo-search>=4.0.0
+
+# --- VOICE & AUDIO PROCESSING ---
+# Porcupine for offline, low-latency Wake Word detection
+pvporcupine>=3.0.0
+
+# PyAudio for accessing the microphone (Input)
+PyAudio>=0.2.13
+
+# SpeechRecognition for converting Speech-to-Text (STT)
+SpeechRecognition>=3.10.0
+
+# Edge-TTS for high-quality Neural Text-to-Speech (Output)
+edge-tts>=6.1.9
+
+# YT-DLP for the "DJ Aura" music mode (streaming audio)
+yt-dlp>=2023.11.16
+
+# --- HARDWARE & INTERFACE ---
+# PyGame for the "Liquid Face" affective display and UI
+pygame>=2.5.0
+
+# PySerial for UART communication with Arduino Uno (The "Spine")
+pyserial>=3.5
+
+# --- UTILITIES & NETWORK ---
+# Requests for general API calls
+requests>=2.31.0
+
+# Python-Dotenv for securely managing your OpenAI API keys
+python-dotenv>=1.0.0
+
+# Pillow for image manipulation before sending to GPT-4o
+Pillow>=10.0.0
