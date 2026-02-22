@@ -2,6 +2,8 @@
 
 > **"Code is no longer silent. It is alive."**
 
+https://youtu.be/rq5pJGRbYKM?si=Qpjih5rUlvc8_fWa
+
 Aura is an **Embodied AI Agent** that bridges the gap between Digital Superintelligence and the physical world. Unlike traditional robots that follow hard-coded loops, Aura utilizes a **Heterogeneous Split-Core Architecture** to "think" with Cloud AI (GPT-4o) and "act" with reflex-driven Edge AI (TensorFlow Lite).
 
 ---
