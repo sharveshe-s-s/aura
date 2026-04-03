@@ -32,6 +32,30 @@ Aura mimics a biological nervous system by splitting "Cognition" and "Reflexes" 
 | **The Forge** | Development | **AMD Ryzen™ 5 7640HS** | Model Training, Simulation, Optimization |
 
 ---
+### 🎮 Core Functions & Voice Commands
+Aura operates fully hands-free via a custom-trained Picovoice Porcupine wake-word engine. Once awakened, she enters an "Alexa-style" continuous conversation loop, allowing for fluid, back-and-forth interaction without needing to repeat her name.
+
+### 🧠 Conversational Intelligence
+Contextual Memory: Aura remembers the last 10 interactions in her buffer. If you ask, "What is the capital of Japan?" and follow up with, "What is the weather like there?", she understands the context.
+
+Live Web Search: If asked about current events (e.g., "Give me a news update"), Aura autonomously scrapes DuckDuckGo for real-time 2026 data before answering.
+
+"Clear Your Memory": A voice command that instantly wipes her conversational buffer for a fresh interaction.
+
+### 👁️ Vision & Autonomy
+"Aura, what do you see?" -> Triggers the PiCamera to snap a frame, encodes it in Base64, and sends it to GPT-4o for a highly descriptive, semantic breakdown of her surroundings.
+
+"Aura, find the box." -> Activates HUNT MODE. Aura overrides the LLM, engaging the OpenCV TensorFlow model to visually scan the room. Once she locks onto a target, she autonomously drives toward it and uses her ultrasonic "Spine" to stop exactly 20cm away.
+
+### 🎶 Media & Entertainment
+"Aura, play [Song Name]." -> Bypasses standard storage limits by directly streaming high-bitrate YouTube audio into RAM using yt-dlp and mpv.
+
+"Aura, stop the music." -> Instantly kills the streaming process and returns her to active listening mode.
+
+### 🕹️ Direct Kinematics & Easter Eggs
+Voice-Piloting: Commands like "Move forward," "Come here," "Turn left," and "Back up" send instant serial interrupts to the Arduino motor shield for precise movement.
+
+God Mode: Asking "Who created you?" or "Activate God Mode" triggers an intense visual UI change (red eyes) and a custom voice protocol acknowledging her creator.
 
 ## 🛠️ Technology Stack
 
