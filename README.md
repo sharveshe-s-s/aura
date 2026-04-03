@@ -48,9 +48,6 @@ Aura mimics a biological nervous system by splitting "Cognition" and "Reflexes" 
 * **Voice Interaction:** Picovoice Porcupine (Wake Word), Google STT, Edge-TTS
 * **Interface:** Pygame (Liquid Face UI), DuckDuckGo Search API
 
-### **Powered by AMD**
-* **Development:** Architected on **AMD Ryzen™ 5 7640HS** (Zen 4 Architecture).
-* **Optimization:** Quantized and simulated using the **AMD Ryzen™ AI (XDNA™) Engine**.
 
 
 ---
